@@ -1,5 +1,7 @@
+import { UseEffect } from "./UseEffect";
+
 function App() {
-  return "Hi";
+  return <UseEffect />;
 }
 
 export default App;
