@@ -12,6 +12,13 @@ export class CounterNameClass extends React.Component {
   render() {
     return (
       <>
+        <br />
+        <br />
+        <label>
+          <strong>Class Component</strong>
+        </label>
+        <br />
+        <br />
         <label>Name:</label>
         <input
           onChange={(e) => this.setState({ name: e.target.value })}
